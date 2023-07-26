@@ -1,31 +1,38 @@
+import ProductImageBoarding from "@/assets/onboarding.png";
+import ProductImagePayroll from "@/assets/payroll.png";
+import ProductImageLeave from "@/assets/leave.png";
+import ProductImageClaim from "@/assets/claim.png";
+import ProductImagePerformance from "@/assets/performance.png";
+
+
 export const productLists = [
     {
         id: 'boarding',
-        imgUrl: './src/assets/onboarding.png',
+        imgUrl: ProductImageBoarding,
         title: 'Boarding System', 
         link: 'boarding'
     },
     {
         id: 'payroll',
-        imgUrl: './src/assets/payroll.png',
+        imgUrl: ProductImagePayroll,
         title: 'E-Payroll System',
         link: 'payroll' 
     },
     {
         id: 'leave',
-        imgUrl: './src/assets/leave.png',
+        imgUrl: ProductImageLeave,
         title: 'E-Leave System', 
         link: 'leave'
     },
     {
         id: 'claim',
-        imgUrl: './src/assets/claim.png',
+        imgUrl: ProductImageClaim,
         title: 'E-Claim System',
         link: 'claim'
     },
     {
         id: 'performance',
-        imgUrl: './src/assets/performance.png',
+        imgUrl: ProductImagePerformance,
         title: 'Performance Tracker',
         link: 'performance'
     },
