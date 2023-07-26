@@ -22,7 +22,7 @@ const index = ({setSelectedPage} : Props) => {
                     <p className="my-5" onClick={() => setSelectedPage(SelectedPage.Home)}>
                         Home
                     </p>
-                    <p className="my-5" onClick={() => setSelectedPage(SelectedPage.Benefits)}>
+                    <p className="my-5" onClick={() => setSelectedPage(SelectedPage.AboutUs)}>
                         Benefit
                     </p>
                     <p className="my-5" onClick={() => setSelectedPage(SelectedPage.OurProducts)}>
